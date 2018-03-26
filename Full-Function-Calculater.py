@@ -23,6 +23,7 @@ def Minus_onClick():
     Operator = '-'
     Main_Output_Window.config(text='')
 
+
 def Multi_onClick():
     global Cal_Num_1
     global Cal_Num_2
@@ -43,7 +44,6 @@ def Div_onClick():
     Current_Num = 0
     Operator = '/'
     Main_Output_Window.config(text='')
-    
 
 
 def Num_Button_onClick(Num):
